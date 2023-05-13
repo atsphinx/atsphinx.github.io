@@ -1,11 +1,11 @@
-========
-atsphinx
-========
+================
+atsphinx project
+================
 
 .. toctree::
    :hidden:
 
-   contributing
+   Contributing <contributing>
 
 **atsphinx** is attakei's Sphinx extension collection and personal namespace of PyPI.
 
