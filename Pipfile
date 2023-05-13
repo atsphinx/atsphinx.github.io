@@ -4,7 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-sphinx = "==7.*"
+sphinx = "==6.*"
+sphinx_design = "==0.4.*"
 
 [dev-packages]
 sphinx-autobuild = "*"
+
+[pipenv]
+allow_prereleases = true

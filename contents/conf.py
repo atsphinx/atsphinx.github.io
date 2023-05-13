@@ -8,6 +8,7 @@ release = "2023.5.1"
 extensions = []
 extensions = [
     "sphinx.ext.todo",
+    "sphinx_design",
 ]
 templates_path = ["_templates"]
 exclude_patterns = []
