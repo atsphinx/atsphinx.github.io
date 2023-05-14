@@ -1,3 +1,4 @@
+# noqa: D100
 # -- Project information
 project = "atsphinx"
 copyright = "2023, Kazuya Takei"
