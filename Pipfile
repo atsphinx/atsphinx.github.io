@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 sphinx = "==6.*"
+pydata-sphinx-theme = "==0.13.*"
 sphinx_design = "==0.4.*"
 
 [dev-packages]

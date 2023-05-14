@@ -1,0 +1,22 @@
+html {
+  --pst-custom-navbar-background: #006600;
+  --pst-custom-navbar-color: #ffffff;
+}
+
+.bd-header {
+  background: var(--pst-custom-navbar-background) !important;
+}
+.bd-header .navbar-brand .title {
+  font-weight: bold;
+}
+.bd-header a.navbar-brand:hover {
+  text-decoration-line: none;
+}
+.bd-header .navbar-nav > .active > a.nav-link,
+.bd-header .navbar-nav li a.nav-link,
+.navbar-brand p,
+.navbar-item button *,
+.navbar-persistent--mobile button,
+.bd-header label.sidebar-toggle {
+  color: var(--pst-custom-navbar-color);
+}
