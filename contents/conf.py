@@ -9,6 +9,7 @@ release = "2023.5.1"
 extensions = []
 extensions = [
     "sphinx.ext.todo",
+    "sphinx.ext.githubpages",
     "sphinx_design",
 ]
 templates_path = ["_templates"]
