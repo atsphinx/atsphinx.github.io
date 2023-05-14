@@ -23,6 +23,13 @@ html_title = project
 html_permalinks = False
 html_theme_options = {
     "article_footer_items": [],
+    "icon_links": [
+        {
+            "name": "GitHub repo",
+            "url": "https://github.com/atsphinx/atsphinx.github.io/",
+            "icon": "fa-brands fa-github",
+        }
+    ],
     "secondary_sidebar_items": [],
 }
 
