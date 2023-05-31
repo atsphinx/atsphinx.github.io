@@ -12,7 +12,7 @@ atsphinx project
 Featured packages
 =================
 
-.. grid:: 2
+.. grid:: 3
 
    .. grid-item-card:: Footnotes
 
@@ -21,3 +21,7 @@ Featured packages
    .. grid-item-card:: OG Article
 
       Render ``article:*`` metatags.
+
+   .. grid-item-card:: Feed
+
+      Generate Atom feed from ``og-article`` directrive of ``atsphinx-og-article``.
