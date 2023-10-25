@@ -25,3 +25,11 @@ Featured packages
    .. grid-item-card:: Feed
 
       Generate Atom feed from ``og-article`` directrive of ``atsphinx-og-article``.
+
+   .. grid-item-card:: Highlight.js
+
+      Syntax highlighting by Highlight.js instead of Pygments.
+
+   .. grid-item-card:: SQLite3 FTS
+
+      Extra search using SQLite3 FTS and SQL.js.
