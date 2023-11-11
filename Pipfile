@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+atsphinx-color-text = "==0.1.*"
 sphinx = "==6.*"
 pydata-sphinx-theme = "==0.13.*"
 sphinx_design = "==0.4.*"

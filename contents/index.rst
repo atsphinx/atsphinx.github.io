@@ -33,3 +33,7 @@ Featured packages
    .. grid-item-card:: SQLite3 FTS
 
       Extra search using SQLite3 FTS and SQL.js.
+
+   .. grid-item-card:: Color text
+
+      Write :color:red:`color text` by role.

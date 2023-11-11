@@ -8,6 +8,7 @@ release = "2023.5.1"
 # -- General configuration
 extensions = []
 extensions = [
+    "atsphinx.color_text",
     "sphinx.ext.todo",
     "sphinx.ext.githubpages",
     "sphinx_design",
