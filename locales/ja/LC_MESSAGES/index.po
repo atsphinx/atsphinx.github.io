@@ -25,17 +25,17 @@ msgstr ""
 
 #: ../../contents/index.rst:3
 msgid "atsphinx project"
-msgstr ""
+msgstr "atsphinxプロジェクト"
 
 #: ../../contents/index.rst:10
 msgid ""
 "**atsphinx** is attakei's Sphinx extension collection and personal "
 "namespace of PyPI."
-msgstr ""
+msgstr "**atsphinx** は @attakei が開発しているSphinx拡張のコレクションの総称で、名前空間です。"
 
 #: ../../contents/index.rst:13
 msgid "Featured packages"
-msgstr ""
+msgstr "主なパッケージ"
 
 #: ../../contents/index.rst:17
 msgid "Footnotes"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../contents/index.rst:19
 msgid "Collect all footnotes in document and display to **foot** of doc."
-msgstr ""
+msgstr "ドキュメント内にある脚注構文を集約して、「文末」に表示させるようにします。"
 
 #: ../../contents/index.rst:21
 msgid "OG Article"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../contents/index.rst:23
 msgid "Render ``article:*`` metatags."
-msgstr ""
+msgstr "OGPの ``article:*`` メタ情報を出力します。"
 
 #: ../../contents/index.rst:25
 msgid "Feed"
@@ -61,7 +61,7 @@ msgstr ""
 msgid ""
 "Generate Atom feed from ``og-article`` directrive of ``atsphinx-og-"
 "article``."
-msgstr ""
+msgstr "``atsphinx-og-article`` で用いる ``og-article`` ディレクティブを参照してAtomフィードを生成します。"
 
 #: ../../contents/index.rst:29
 msgid "Highlight.js"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../contents/index.rst:31
 msgid "Syntax highlighting by Highlight.js instead of Pygments."
-msgstr ""
+msgstr "Highlight.jsを利用したコードシンタックスハイライト。"
 
 #: ../../contents/index.rst:33
 msgid "SQLite3 FTS"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../contents/index.rst:35
 msgid "Extra search using SQLite3 FTS and SQL.js."
-msgstr ""
+msgstr "SQLite3とSQL.jsを利用した、新しいドキュメント検索を提供します。"
 
 #: ../../contents/index.rst:37
 msgid "Color text"
@@ -85,5 +85,5 @@ msgstr ""
 
 #: ../../contents/index.rst:39
 msgid "Write :color:red:`color text` by role."
-msgstr ""
+msgstr "ロールを用いた :color:red:`色付き文字` の出力。"
 
