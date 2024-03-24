@@ -21,3 +21,9 @@ virtual = true
 dev-dependencies = [
     "sphinx-autobuild>=2021.3.14",
 ]
+
+[tool.ruff.lint]
+select = ["C90", "D", "E", "F", "I", "W"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
