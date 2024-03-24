@@ -12,15 +12,19 @@ accessible-pygments==0.0.4
 alabaster==0.7.16
     # via sphinx
 atsphinx-color-text==0.1.1
+atsphinx-mini18n==0.2.1
 babel==2.14.0
     # via pydata-sphinx-theme
     # via sphinx
+    # via sphinx-intl
 beautifulsoup4==4.12.3
     # via pydata-sphinx-theme
 certifi==2024.2.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
+click==8.1.7
+    # via sphinx-intl
 colorama==0.4.6
     # via sphinx-autobuild
 docutils==0.19
@@ -44,8 +48,11 @@ pygments==2.17.2
     # via accessible-pygments
     # via pydata-sphinx-theme
     # via sphinx
+python-dotenv==1.0.1
 requests==2.31.0
     # via sphinx
+setuptools==69.2.0
+    # via sphinx-intl
 six==1.16.0
     # via livereload
 snowballstemmer==2.2.0
@@ -54,11 +61,14 @@ soupsieve==2.5
     # via beautifulsoup4
 sphinx==6.2.1
     # via atsphinx-color-text
+    # via atsphinx-mini18n
     # via pydata-sphinx-theme
     # via sphinx-autobuild
     # via sphinx-design
+    # via sphinx-intl
 sphinx-autobuild==2024.2.4
 sphinx-design==0.4.1
+sphinx-intl==2.1.0
 sphinxcontrib-applehelp==1.0.8
     # via sphinx
 sphinxcontrib-devhelp==1.0.6

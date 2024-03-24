@@ -24,11 +24,11 @@ jobs:
       - name: 'Build website'
         run: |
           rye sync --no-lock
-          rye run make dirhtml
+          rye run make mini18n-dirhtml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: build/dirhtml/
+          path: build/mini18-dirhtml/
   deploy:
     needs: build
     runs-on: ubuntu-latest

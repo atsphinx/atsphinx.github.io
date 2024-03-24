@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Kazuya Takei
+# This file is distributed under the same license as the atsphinx package.
+# Kazuya Takei <myself@attakei.net>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: atsphinx 2023.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-25 01:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kazuya Takei <myself@attakei.net>\n"
+"Language: ja\n"
+"Language-Team: Kazuya Takei <myself@attakei.net>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../contents/index.rst:5
+msgid "Contributing"
+msgstr ""
+
+#: ../../contents/index.rst:3
+msgid "atsphinx project"
+msgstr "atsphinxプロジェクト"
+
+#: ../../contents/index.rst:10
+msgid ""
+"**atsphinx** is attakei's Sphinx extension collection and personal "
+"namespace of PyPI."
+msgstr "**atsphinx** は @attakei が開発しているSphinx拡張のコレクションの総称で、名前空間です。"
+
+#: ../../contents/index.rst:13
+msgid "Featured packages"
+msgstr "主なパッケージ"
+
+#: ../../contents/index.rst:17
+msgid "Footnotes"
+msgstr ""
+
+#: ../../contents/index.rst:19
+msgid "Collect all footnotes in document and display to **foot** of doc."
+msgstr "ドキュメント内にある脚注構文を集約して、「文末」に表示させるようにします。"
+
+#: ../../contents/index.rst:21
+msgid "OG Article"
+msgstr ""
+
+#: ../../contents/index.rst:23
+msgid "Render ``article:*`` metatags."
+msgstr "OGPの ``article:*`` メタ情報を出力します。"
+
+#: ../../contents/index.rst:25
+msgid "Feed"
+msgstr ""
+
+#: ../../contents/index.rst:27
+msgid ""
+"Generate Atom feed from ``og-article`` directrive of ``atsphinx-og-"
+"article``."
+msgstr "``atsphinx-og-article`` で用いる ``og-article`` ディレクティブを参照してAtomフィードを生成します。"
+
+#: ../../contents/index.rst:29
+msgid "Highlight.js"
+msgstr ""
+
+#: ../../contents/index.rst:31
+msgid "Syntax highlighting by Highlight.js instead of Pygments."
+msgstr "Highlight.jsを利用したコードシンタックスハイライト。"
+
+#: ../../contents/index.rst:33
+msgid "SQLite3 FTS"
+msgstr ""
+
+#: ../../contents/index.rst:35
+msgid "Extra search using SQLite3 FTS and SQL.js."
+msgstr "SQLite3とSQL.jsを利用した、新しいドキュメント検索を提供します。"
+
+#: ../../contents/index.rst:37
+msgid "Color text"
+msgstr ""
+
+#: ../../contents/index.rst:39
+msgid "Write :color:red:`color text` by role."
+msgstr "ロールを用いた :color:red:`色付き文字` の出力。"
+
