@@ -40,8 +40,8 @@ html_css_files = ["css/custom.css"]
 html_title = project
 html_permalinks = False
 html_theme_options = {
-    "navbar_end": [
-        "navbar-icon-links",
+    "navbar_start": [
+        "navbar-logo",
         "mini18n/snippets/select-lang",
     ],
     "article_footer_items": [],
@@ -62,3 +62,4 @@ todo_include_todos = True
 # atsphinx.mini18n
 mini18n_default_language = "en"
 mini18n_support_languages = ["en", "ja"]
+mini18n_select_lang_label = ""
