@@ -22,6 +22,9 @@ dev-dependencies = [
     "sphinx-autobuild>=2021.3.14",
 ]
 
+[tool.rye.scripts]
+make = "make"
+
 [tool.ruff.lint]
 select = ["C90", "D", "E", "F", "I", "W"]
 

@@ -19,18 +19,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          architecture: x64
-          python-version: '3.11'
-      - name: Install dependencies
+      - uses: actions/checkout@v4
+      - uses: eifinger/setup-rye@v2
+      - name: 'Build website'
         run: |
-          pip install pipenv
-          pipenv install
-      - name: Run build
-        run: pipenv run make dirhtml
+          rye sync --no-lock
+          rye run make dirhtml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
