@@ -22,5 +22,6 @@ This organization is personal works for my motivation.
 
 I will note new ideas for sphinx-extension into discussion-page.
 
-You can post too, if "I want a features for Sphinx, but it is difficult for me.". if I have interested into it, I may create it.
+You can post too, if "I want a features for Sphinx,
+but it is difficult for me.". if I have interested into it, I may create it.
 Items of discussion should be written by Japanese or Einglish if possible.
