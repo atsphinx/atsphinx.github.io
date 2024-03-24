@@ -1,9 +1,17 @@
 # noqa: D100
+
+import os
+
+import dotenv
+
+dotenv.load_dotenv()
+
 # -- Project information
 project = "atsphinx"
 copyright = "2023, Kazuya Takei"
 author = "Kazuya Takei"
 release = "2023.5.1"
+version = release
 
 # -- General configuration
 extensions = []
@@ -15,6 +23,13 @@ extensions = [
 ]
 templates_path = ["_templates"]
 exclude_patterns = []
+
+# For i18n
+language = "en"
+locale_dirs = ["../locales"]
+gettext_compact = False
+gettext_language_team = "Kazuya Takei <myself@attakei.net>"
+gettext_last_translator = os.environ.get("SPHINXINTL_TRANSLATOR", None)
 
 # -- Options for HTML output
 html_theme = "pydata_sphinx_theme"

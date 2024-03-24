@@ -14,6 +14,10 @@ help:
 
 .PHONY: help Makefile
 
+intl:
+	@$(SPHINXBUILD) -M gettext "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	sphinx-intl update --language=ja
+
 local:
 	sphinx-autobuild -b dirhtml $(SOURCEDIR) $(BUILDDIR)/dirhtml $(O)
 
