@@ -20,3 +20,6 @@ html {
 .bd-header label.sidebar-toggle {
   color: var(--pst-custom-navbar-color);
 }
+div#atsphinx-mini18n-select-component {
+  color: var(--pst-custom-navbar-color);
+}

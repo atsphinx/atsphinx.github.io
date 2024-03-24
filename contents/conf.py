@@ -3,6 +3,7 @@
 import os
 
 import dotenv
+from atsphinx.mini18n import get_template_dir
 
 dotenv.load_dotenv()
 
@@ -17,11 +18,12 @@ version = release
 extensions = []
 extensions = [
     "atsphinx.color_text",
+    "atsphinx.mini18n",
     "sphinx.ext.todo",
     "sphinx.ext.githubpages",
     "sphinx_design",
 ]
-templates_path = ["_templates"]
+templates_path = ["_templates", get_template_dir()]
 exclude_patterns = []
 
 # For i18n
@@ -38,6 +40,10 @@ html_css_files = ["css/custom.css"]
 html_title = project
 html_permalinks = False
 html_theme_options = {
+    "navbar_end": [
+        "navbar-icon-links",
+        "mini18n/snippets/select-lang",
+    ],
     "article_footer_items": [],
     "icon_links": [
         {
@@ -52,3 +58,7 @@ html_theme_options = {
 # -- Options for extensions
 # sphinx.ext.todo
 todo_include_todos = True
+
+# atsphinx.mini18n
+mini18n_default_language = "en"
+mini18n_support_languages = ["en", "ja"]

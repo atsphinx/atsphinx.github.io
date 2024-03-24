@@ -12,6 +12,7 @@ accessible-pygments==0.0.4
 alabaster==0.7.16
     # via sphinx
 atsphinx-color-text==0.1.1
+atsphinx-mini18n==0.2.1
 babel==2.14.0
     # via pydata-sphinx-theme
     # via sphinx
@@ -49,6 +50,7 @@ soupsieve==2.5
     # via beautifulsoup4
 sphinx==6.2.1
     # via atsphinx-color-text
+    # via atsphinx-mini18n
     # via pydata-sphinx-theme
     # via sphinx-design
 sphinx-design==0.4.1
