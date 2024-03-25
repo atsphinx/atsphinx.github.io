@@ -4,7 +4,7 @@
 # last locked with the following flags:
 #   pre: false
 #   features: []
-#   all-features: false
+#   all-features: true
 #   with-sources: false
 
 accessible-pygments==0.0.4
@@ -21,12 +21,19 @@ beautifulsoup4==4.12.3
     # via pydata-sphinx-theme
 certifi==2024.2.2
     # via requests
+cffi==1.16.0
+    # via cryptography
+    # via pynacl
 charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via sphinx-intl
 colorama==0.4.6
     # via sphinx-autobuild
+cryptography==42.0.5
+    # via pyjwt
+deprecated==1.2.14
+    # via pygithub
 docutils==0.19
     # via pydata-sphinx-theme
     # via sphinx
@@ -43,13 +50,21 @@ markupsafe==2.1.5
 packaging==24.0
     # via pydata-sphinx-theme
     # via sphinx
+pycparser==2.21
+    # via cffi
 pydata-sphinx-theme==0.13.3
+pygithub==2.3.0
 pygments==2.17.2
     # via accessible-pygments
     # via pydata-sphinx-theme
     # via sphinx
+pyjwt==2.8.0
+    # via pygithub
+pynacl==1.5.0
+    # via pygithub
 python-dotenv==1.0.1
 requests==2.31.0
+    # via pygithub
     # via sphinx
 setuptools==69.2.0
     # via sphinx-intl
@@ -85,5 +100,9 @@ tornado==6.4
     # via livereload
 typing-extensions==4.10.0
     # via pydata-sphinx-theme
+    # via pygithub
 urllib3==2.2.1
+    # via pygithub
     # via requests
+wrapt==1.16.0
+    # via deprecated
