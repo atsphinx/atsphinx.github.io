@@ -12,6 +12,7 @@ dependencies = [
     "sphinx_design~=0.4.0",
     "python-dotenv~=1.0.1",
     "atsphinx-mini18n~=0.3.0",
+    "sphinx-panels~=0.6.0",
 ]
 license = "Apache-2.0"
 readme = "README.rst"
