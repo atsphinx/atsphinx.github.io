@@ -38,3 +38,12 @@ Featured packages
    .. grid-item-card:: Color text
 
       Write :color:red:`color text` by role.
+
+External packages
+=================
+
+These are convinience to extend Sphinx written by attakei but not included in atsphinx project.
+
+* `sphinx-revealjs <https://sphinx-revealjs.rtfd.io/>`_ : Presentation generator for Sphinx users.
+* `oEmbedPy <https://oembedpy.rtfd.io/>`_ : Modern oEmbed client.
+* `rst-budoux <https://rst-budoux.rtfd.io/>`_ : Split Japanese text of reStructuredText.
