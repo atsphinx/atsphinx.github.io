@@ -13,21 +13,16 @@ dependencies = [
     "python-dotenv~=1.0.1",
     "atsphinx-mini18n~=0.3.0",
 ]
-license = "Apache-2.0"
+license = {text = "Apache-2.0"}
 readme = "README.rst"
-requires-python = ">= 3.8"
+requires-python = ">=3.12"
 
-[tool.rye]
-managed = true
-virtual = true
+[tool.uv]
 dev-dependencies = [
     "sphinx-autobuild>=2021.3.14",
     "sphinx-intl~=2.1.0",
     "pygithub~=2.3.0",
 ]
-
-[tool.rye.scripts]
-make = "make"
 
 [tool.ruff.lint]
 select = ["C90", "D", "E", "F", "I", "W"]
