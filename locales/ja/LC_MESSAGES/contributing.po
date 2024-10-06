@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../contents/contributing.rst:3
 msgid "Contributing for projects"
-msgstr "プロジェクトへの公権"
+msgstr "プロジェクトへの貢献"
 
 #: ../../contents/contributing.rst:5
 msgid "This is guideline to contribute for ``atsphinx`` packages."
