@@ -18,6 +18,7 @@ version = release
 extensions = []
 extensions = [
     "atsphinx.color_text",
+    "atsphinx.footnotes",
     "atsphinx.mini18n",
     "sphinx.ext.todo",
     "sphinx.ext.githubpages",
