@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: atsphinx 2023.5.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 01:39+0900\n"
+"POT-Creation-Date: 2024-10-06 12:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kazuya Takei <myself@attakei.net>\n"
 "Language: ja\n"
@@ -17,33 +17,113 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../contents/contributing.rst:3
 msgid "Contributing for projects"
-msgstr ""
+msgstr "プロジェクトへの公権"
 
 #: ../../contents/contributing.rst:5
 msgid "This is guideline to contribute for ``atsphinx`` packages."
 msgstr "このページは、 ``atsphinx`` シリーズのパッケージへのコントリビューションのための案内です。"
 
-#: ../../contents/contributing.rst:7
-msgid "Todo"
-msgstr ""
-
-#: ../../contents/contributing.rst:7
-msgid "This is empty content."
-msgstr ""
-
-#: ../../contents/contributing.rst:9
-msgid "Add document"
-msgstr ""
-
-#: ../../contents/contributing.rst:10
-msgid "Link from current packages' documentation"
-msgstr ""
+#: ../../contents/contributing.rst:8
+msgid "Supporting languages"
+msgstr "対応言語"
 
 #: ../../contents/contributing.rst:11
-msgid "Configure into cookiecutter"
-msgstr ""
+msgid "Sources languages"
+msgstr "ソース上の言語"
 
+#: ../../contents/contributing.rst:13
+msgid "Default language of repository is English."
+msgstr "リポジトリの標準言語は「英語」と定めています。"
+
+#: ../../contents/contributing.rst:15
+msgid "You must write these contents by English."
+msgstr "これらの要素については、英語で書いてください。"
+
+#: ../../contents/contributing.rst:17
+msgid "Source code tokens (variables, functions and more)"
+msgstr "ソースの各要素（変数名や関数名など）"
+
+#: ../../contents/contributing.rst:18
+msgid "Comments of codes (simple comment and docstrings)"
+msgstr "コードのコメント（docstringも含む）"
+
+#: ../../contents/contributing.rst:19
+msgid "Base documentation ( ``docs`` directory)"
+msgstr "ドキュメントのソース（ ``docs`` フォルダ配下にあるもの）"
+
+#: ../../contents/contributing.rst:20
+msgid "README and CHANGES"
+msgstr "READMEとCHANGESファイル"
+
+#: ../../contents/contributing.rst:21
+msgid "Commit logs"
+msgstr "コミットログ"
+
+#: ../../contents/contributing.rst:23
+msgid ""
+"Documentation suports i18n. If you want to write out documents for your "
+"language, generate po files of language using ``sphinx-intl``."
+msgstr "ドキュメントは国際化（i18n）対応をしています。"
+"自身が普段扱う言語でドキュメントを出力させたい場合は、"
+"``sphinx-intl`` を使いPOファイルを生成してください。"
+
+#: ../../contents/contributing.rst:29
+msgid ""
+"I am writing documents by English and Japanese (using i18n) [#f1]_ . When"
+" some package updates, I do not follow po files of other languages."
+msgstr "作者はi18n機能を使いつつ英語と日本語のドキュメントを書いています。 [#f1]_ "
+"仮に各パッケージを更新しても、それ以外の言語のPOファイルについてのサポートは行いません。"
+
+#: ../../contents/contributing.rst:35
+msgid "Issues ang pull-requests."
+msgstr "IssueとPull requestについて"
+
+#: ../../contents/contributing.rst:37
+msgid ""
+"All projects accept English or Japanese as issues and pull-requests "
+"[#f1]_ ."
+msgstr "全プロジェクトのIssueとPull requestでは、英語だけでなく日本語でも受け付けます。"
+
+#: ../../contents/contributing.rst:40
+msgid "When you find any troubles of specified package."
+msgstr "パッケージにに何か問題がありそうだった場合"
+
+#: ../../contents/contributing.rst:42
+msgid ""
+"You should create new issue to repository of package. I will check issues"
+" and work for these."
+msgstr "該当するパッケージのリポジトリ上で、新しくIssueを作成してください。"
+"随時確認を行い解決に動く予定です。"
+
+#: ../../contents/contributing.rst:45
+msgid ""
+"If you can write patch, please create pull-requests directly (e.f. : you "
+"find typo in docs)."
+msgstr "もしパッチを書けるのであれば、直接Pull Requestを作成してください。"
+"（例：ドキュメントをにtypoを見つけた）"
+
+#: ../../contents/contributing.rst:49
+msgid "Do you have any ideas want to use on Sphinx?"
+msgstr "Sphinxを便利にするアイデアだけがある場合"
+
+#: ../../contents/contributing.rst:51
+msgid ""
+"If you have ideas of Sphinx-extension but difficult to implement for you,"
+" please write it as ideas into `organization's disuccsion "
+"<https://github.com/orgs/atsphinx/discussions>`_."
+msgstr ""
+"もし「Sphinx拡張のアイデアはある」「でも自分で実装するのはちょっと難しい」"
+"といった場合は、アイデアだけを `OrganizationのDiscussion <https://github.com/orgs/atsphinx/discussions>`_"
+"内に登録してみてください。"
+
+#: ../../contents/contributing.rst:54
+msgid "I may develop it instead of you (it is not always for all ideas)."
+msgstr "あなたの代わりに実装するかもしれません（もちろんすべてのアイデアに対してそのとおりに動くとは限りません）。"
+
+#: ../../contents/contributing.rst:32
+msgid "These are native language and second language of attakei."
+msgstr "作者であるattakeiの母国語と第二言語がこれらです。"
