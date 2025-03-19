@@ -20,11 +20,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
       - name: 'Build website'
         run: |
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          uv sync
-          uv run make mini18n-dirhtml
+          uv sync --frozen
+          task docs:build-mini18n-dirhtml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

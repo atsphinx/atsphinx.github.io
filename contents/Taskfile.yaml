@@ -5,7 +5,7 @@ vars:
   # RUN_PYTHON: ''
   SPHINX_DEFAULT_BUILD: 'mini18n-dirhtml'
   SPHINX_SOURCE_DIR: '.'
-  SPHINX_OUTPUT_DIR: '_build'
+  SPHINX_OUTPUT_DIR: '../build'
   SPHINX_OPTIONS: ''
   SPHINX_LANGUAGES:
     - 'ja'
