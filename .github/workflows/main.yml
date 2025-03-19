@@ -1,0 +1,38 @@
+name: 'Run CI jobs'
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+  pull_request:
+  workflow_dispatch:
+
+env:
+  UV_NO_SYNC: 1
+
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - name: 'Configure dependencies'
+        run: |
+          uv sync --all-extras --frozen
+      - name: 'Run linters'
+        run: |
+          lefthook run pre-commit --all-files
+  docs-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - name: 'Configure dependencies'
+        run: |
+          uv sync --all-extras --frozen
+      - name: 'Run tests'
+        run: |
+          task setup docs:build-linkcheck docs:build-dirhtml
