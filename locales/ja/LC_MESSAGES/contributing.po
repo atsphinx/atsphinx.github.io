@@ -117,7 +117,7 @@ msgid ""
 "<https://github.com/orgs/atsphinx/discussions>`_."
 msgstr ""
 "もし「Sphinx拡張のアイデアはある」「でも自分で実装するのはちょっと難しい」"
-"といった場合は、アイデアだけを `OrganizationのDiscussion <https://github.com/orgs/atsphinx/discussions>`_"
+"といった場合は、アイデアだけを `OrganizationのDiscussion <https://github.com/orgs/atsphinx/discussions>`_ "
 "内に登録してみてください。"
 
 #: ../../contents/contributing.rst:54
