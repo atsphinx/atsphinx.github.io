@@ -6,6 +6,7 @@ authors = [
     { name = "Kazuya Takei", email = "myself@attakei.net" }
 ]
 dependencies = [
+    "atsphinx-bulma>=0.4.1",
     "atsphinx-color-text>=0.1.0",
     "atsphinx-footnotes>=0.2.0",
     "atsphinx-mini18n>=0.3.0",

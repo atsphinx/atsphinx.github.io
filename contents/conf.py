@@ -38,25 +38,39 @@ gettext_language_team = "Kazuya Takei <myself@attakei.net>"
 gettext_last_translator = os.environ.get("SPHINXINTL_TRANSLATOR", None)
 
 # -- Options for HTML output
-html_theme = "pydata_sphinx_theme"
+html_theme = "bulma-basic"
 html_static_path = ["_static"]
 html_css_files = ["css/custom.css"]
 html_title = project
 html_permalinks = False
 html_theme_options = {
-    "navbar_start": [
-        "navbar-logo",
-        "mini18n/snippets/select-lang",
-    ],
-    "article_footer_items": [],
-    "icon_links": [
+    "bulmaswatch": "flatly",
+    "navbar_icons": [
         {
-            "name": "GitHub repo",
+            "label": "GitHub repo",
             "url": "https://github.com/atsphinx/atsphinx.github.io/",
             "icon": "fa-brands fa-github",
         }
     ],
-    "secondary_sidebar_items": [],
+    "navbar_links": [
+        {
+            "title": "OpenCollective",
+            "url": "https://opencollective.com/atsphinx",
+        }
+    ],
+    "navbar_show_hidden_toctree": True,
+    "show_theme_credit": True,
+    "layout": {
+        "index": [
+            {"type": "space", "size": 2},
+            {"type": "main", "size": 8},
+            {"type": "space", "size": 2},
+        ],
+        "**": [
+            {"type": "main", "size": 10},
+            {"type": "sidebar", "size": 2},
+        ],
+    },
 }
 
 # -- Options for extensions
