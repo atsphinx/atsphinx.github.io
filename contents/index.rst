@@ -4,14 +4,8 @@ atsphinx project
 
 .. raw:: html
 
-    <style>
-      h1 {
-        display: none;
-      }
-      h2, h3 {
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="_static/css/page-index.css">
+    <script type="module" src="_static/js/page-index.js"></script>
 
 .. toctree::
    :hidden:
