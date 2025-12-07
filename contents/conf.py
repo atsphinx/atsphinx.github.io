@@ -17,11 +17,14 @@ version = release
 # -- General configuration
 extensions = []
 extensions = [
+    # Core bundled extensions
+    "sphinx.ext.githubpages",
+    "sphinx.ext.todo",
+    # atsphinx projects
     "atsphinx.color_text",
     "atsphinx.footnotes",
     "atsphinx.mini18n",
-    "sphinx.ext.todo",
-    "sphinx.ext.githubpages",
+    # Third-party extensions
     "sphinx_design",
 ]
 templates_path = ["_templates", get_template_dir()]
