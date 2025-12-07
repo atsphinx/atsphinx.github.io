@@ -23,4 +23,5 @@ jobs:
           task setup
       - name: Lint by lefthook
         run: |
+          touch contents/_snippets/packages.rst
           lefthook run pre-commit --all-files
