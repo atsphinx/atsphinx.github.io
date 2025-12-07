@@ -1,25 +1,7 @@
-html {
-  --pst-custom-navbar-background: #006600;
-  --pst-custom-navbar-color: #ffffff;
+.subtitle:not(.is-spaced) + .title,
+.title:not(.is-spaced) + .subtitle {
+  margin-top: 0;
 }
-
-.bd-header {
-  background: var(--pst-custom-navbar-background) !important;
-}
-.bd-header .navbar-brand .title {
-  font-weight: bold;
-}
-.bd-header a.navbar-brand:hover {
-  text-decoration-line: none;
-}
-.bd-header .navbar-nav > .active > a.nav-link,
-.bd-header .navbar-nav li a.nav-link,
-.navbar-brand p,
-.navbar-item button *,
-.navbar-persistent--mobile button,
-.bd-header label.sidebar-toggle {
-  color: var(--pst-custom-navbar-color);
-}
-div#atsphinx-mini18n-select-component {
-  color: var(--pst-custom-navbar-color);
+section.hero p.title {
+  font-size: 6rem;
 }

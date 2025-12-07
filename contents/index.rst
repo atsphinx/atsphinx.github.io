@@ -2,6 +2,17 @@
 atsphinx project
 ================
 
+.. raw:: html
+
+    <style>
+      h1 {
+        display: none;
+      }
+      h2, h3 {
+        text-align: center;
+      }
+    </style>
+
 .. toctree::
    :hidden:
 
@@ -9,7 +20,13 @@ atsphinx project
    Contributing <contributing>
    versioning
 
-**atsphinx** is attakei's Sphinx extension collection and personal namespace of PyPI.
+.. bulma-hero::
+   :title: Documentation meets ...
+   :subtitle: attakei's Sphinx extension collection and personal namespace of PyPI.
+   :classes: is-midium is-primary has-text-centered
+
+**"atsphinx"** is attakei's PyPI projects using personal namespace of PyPI.
+Project has many extensions and some helper projects.
 
 Featured packages
 =================

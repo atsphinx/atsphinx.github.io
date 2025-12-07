@@ -15,12 +15,12 @@ release = "2023.5.1"
 version = release
 
 # -- General configuration
-extensions = []
 extensions = [
     # Core bundled extensions
     "sphinx.ext.githubpages",
     "sphinx.ext.todo",
     # atsphinx projects
+    "atsphinx.bulma.layout.hero",  # TODO: Require to build doctree.
     "atsphinx.color_text",
     "atsphinx.footnotes",
     "atsphinx.mini18n",
@@ -40,16 +40,21 @@ gettext_last_translator = os.environ.get("SPHINXINTL_TRANSLATOR", None)
 # -- Options for HTML output
 html_theme = "bulma-basic"
 html_static_path = ["_static"]
-html_css_files = ["css/custom.css"]
+html_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css",
+    "css/custom.css",
+]
 html_title = project
 html_permalinks = False
 html_theme_options = {
     "bulmaswatch": "flatly",
     "navbar_icons": [
         {
-            "label": "GitHub repo",
+            # "label": "GitHub repo",
             "url": "https://github.com/atsphinx/atsphinx.github.io/",
-            "icon": "fa-brands fa-github",
+            "icon": "fa-brands fa-solid fa-github fa-2x",
         }
     ],
     "navbar_links": [
