@@ -2,6 +2,11 @@
 atsphinx project
 ================
 
+.. raw:: html
+
+    <link rel="stylesheet" href="_static/css/page-index.css">
+    <script type="module" src="_static/js/page-index.js"></script>
+
 .. toctree::
    :hidden:
 
@@ -9,32 +14,34 @@ atsphinx project
    Contributing <contributing>
    versioning
 
-**atsphinx** is attakei's Sphinx extension collection and personal namespace of PyPI.
+.. bulma-hero::
+   :title: Documentation meets ...
+   :subtitle: attakei's Sphinx extension collection and personal namespace of PyPI.
+   :classes: is-midium is-primary has-text-centered
 
-Featured packages
+**"atsphinx"** is attakei's PyPI projects using personal namespace of PyPI.
+Project has many extensions and some helper projects.
+
+Featured projects
 =================
 
 .. grid:: 3
+
+   .. grid-item-card:: Mini18n
+
+      Single deployment for internationalization site.
 
    .. grid-item-card:: Footnotes
 
       Collect all footnotes in document and display to **foot** of doc.
 
-   .. grid-item-card:: OG Article
+   .. grid-item-card:: Pagefind
 
-      Render ``article:*`` metatags.
+      Extra search using pagefind.
 
-   .. grid-item-card:: Feed
+   .. grid-item-card:: Pagefind
 
-      Generate Atom feed from ``og-article`` directrive of ``atsphinx-og-article``.
-
-   .. grid-item-card:: Highlight.js
-
-      Syntax highlighting by Highlight.js instead of Pygments.
-
-   .. grid-item-card:: SQLite3 FTS
-
-      Extra search using SQLite3 FTS and SQL.js.
+      Custom theme using Bulma.
 
    .. grid-item-card:: Color text
 

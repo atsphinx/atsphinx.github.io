@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 permissions:
@@ -12,18 +14,19 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: jdx/mise-action@v2
+      - uses: actions/checkout@v6
+      - uses: 'atsphinx/.github/actions/setup-aqua@main'
       - name: 'Build website'
         run: |
           uv sync --frozen
+          uv run tools/write-project-snippets.py
           task docs:build-mini18n-dirhtml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
