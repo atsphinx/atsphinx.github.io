@@ -8,6 +8,7 @@ tasks:
   setup:
     desc: 'Setup workspace'
     cmds:
+      - 'aqua install -l'
       - 'uv sync --frozen --all-extras'
       - 'lefthook install'
   verify:
@@ -25,7 +26,7 @@ tasks:
       LEVEL: '{{index .MATCH 0}}'
     cmds:
       - 'age {{.LEVEL}}'
-      - 'uv sync --all-extras'  # To write out as lock-file
+      - 'uv sync --all-extras' # To write out as lock-file
 
 includes:
   docs: './contents'

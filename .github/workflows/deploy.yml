@@ -12,15 +12,15 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: jdx/mise-action@v2
+      - uses: actions/checkout@v6
+      - uses: 'atsphinx/.github/actions/setup-aqua@main'
       - name: 'Build website'
         run: |
           uv sync --frozen
