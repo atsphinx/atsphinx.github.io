@@ -24,6 +24,7 @@ jobs:
       - name: 'Build website'
         run: |
           uv sync --frozen
+          uv run tools/write-project-snippets.py
           task docs:build-mini18n-dirhtml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
