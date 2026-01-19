@@ -37,7 +37,7 @@ EXCLUDE_REPOS = [
 ]
 
 TEMPLATES = {
-    "contents/_snippets/packages.rst": """
+    "contents/_snippets/projects.rst": """
         .. |LAST_FETCHED| replace:: {{ now.strftime('%Y-%m-%d') }}
 
         .. grid:: 2

@@ -26,6 +26,7 @@ extensions = [
     "atsphinx.mini18n",
     # Third-party extensions
     "sphinx_design",
+    "sphinx_reredirects",
 ]
 templates_path = ["_templates", get_template_dir()]
 exclude_patterns = []
@@ -86,3 +87,8 @@ todo_include_todos = True
 mini18n_default_language = "en"
 mini18n_support_languages = ["en", "ja"]
 mini18n_select_lang_label = ""
+
+# sphinx_reredirects
+redirects = {
+    "packages": "../projects/",
+}

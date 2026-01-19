@@ -10,7 +10,7 @@ atsphinx project
 .. toctree::
    :hidden:
 
-   packages
+   projects
    Contributing <contributing>
    versioning
 

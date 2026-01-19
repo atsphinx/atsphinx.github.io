@@ -1,9 +1,9 @@
 ============
-All packages
+All projects
 ============
 
 :Updated: |LAST_FETCHED|
 
 List of packages published on PyPI.
 
-.. include:: _snippets/packages.rst
+.. include:: _snippets/projects.rst
