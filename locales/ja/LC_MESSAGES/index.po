@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: atsphinx 2023.5.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-15 02:57+0900\n"
+"POT-Creation-Date: 2026-01-22 03:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kazuya Takei <myself@attakei.net>\n"
 "Language: ja\n"
@@ -17,9 +17,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
-#: ../../contents/index.rst:5
+#: ../../contents/index.rst:10
 msgid "Contributing"
 msgstr ""
 
@@ -27,92 +27,82 @@ msgstr ""
 msgid "atsphinx project"
 msgstr "atsphinxプロジェクト"
 
-#: ../../contents/index.rst:11
+#: ../../contents/index.rst:23
 msgid ""
-"**atsphinx** is attakei's Sphinx extension collection and personal "
-"namespace of PyPI."
+"**\"atsphinx\"** is attakei's PyPI projects using personal namespace of "
+"PyPI. Project has many extensions and some helper projects."
 msgstr "**atsphinx** は @attakei が開発しているSphinx拡張のコレクションの総称で、名前空間です。"
 
-#: ../../contents/index.rst:14
-msgid "Featured packages"
-msgstr "主なパッケージ"
 
-#: ../../contents/index.rst:18
+#: ../../contents/index.rst:27
+#, fuzzy
+msgid "Featured projects"
+msgstr "主なプロジェクト"
+
+#: ../../contents/index.rst:31
+msgid "Mini18n"
+msgstr ""
+
+#: ../../contents/index.rst:33
+msgid "Single deployment for internationalization site."
+msgstr ""
+
+#: ../../contents/index.rst:35
 msgid "Footnotes"
 msgstr ""
 
-#: ../../contents/index.rst:20
+#: ../../contents/index.rst:37
 msgid "Collect all footnotes in document and display to **foot** of doc."
 msgstr "ドキュメント内にある脚注構文を集約して、「文末」に表示させるようにします。"
 
-#: ../../contents/index.rst:22
-msgid "OG Article"
+#: ../../contents/index.rst:39 ../../contents/index.rst:43
+msgid "Pagefind"
 msgstr ""
 
-#: ../../contents/index.rst:24
-msgid "Render ``article:*`` metatags."
-msgstr "OGPの ``article:*`` メタ情報を出力します。"
-
-#: ../../contents/index.rst:26
-msgid "Feed"
-msgstr ""
-
-#: ../../contents/index.rst:28
-msgid ""
-"Generate Atom feed from ``og-article`` directrive of ``atsphinx-og-"
-"article``."
-msgstr "``atsphinx-og-article`` で用いる ``og-article`` ディレクティブを参照してAtomフィードを生成します。"
-
-#: ../../contents/index.rst:30
-msgid "Highlight.js"
-msgstr ""
-
-#: ../../contents/index.rst:32
-msgid "Syntax highlighting by Highlight.js instead of Pygments."
-msgstr "Highlight.jsを利用したコードシンタックスハイライト。"
-
-#: ../../contents/index.rst:34
-msgid "SQLite3 FTS"
-msgstr ""
-
-#: ../../contents/index.rst:36
-msgid "Extra search using SQLite3 FTS and SQL.js."
+#: ../../contents/index.rst:41
+#, fuzzy
+msgid "Extra search using pagefind."
 msgstr "SQLite3とSQL.jsを利用した、新しいドキュメント検索を提供します。"
 
-#: ../../contents/index.rst:38
+#: ../../contents/index.rst:45
+msgid "Custom theme using Bulma."
+msgstr ""
+
+#: ../../contents/index.rst:47
 msgid "Color text"
 msgstr ""
 
-#: ../../contents/index.rst:40
+#: ../../contents/index.rst:49
 msgid "Write :color:red:`color text` by role."
 msgstr "ロールを用いた :color:red:`色付き文字` の出力。"
 
-#: ../../contents/index.rst:43
+#: ../../contents/index.rst:52
 #, fuzzy
 msgid "External packages"
 msgstr "プロジェクト外のパッケージ"
 
-#: ../../contents/index.rst:45
+#: ../../contents/index.rst:54
 msgid ""
 "These are convinience to extend Sphinx written by attakei but not "
 "included in atsphinx project."
 msgstr "atsphinプロジェクト外にあるSphinxの拡張ができる便利なパッケージです。"
 
-#: ../../contents/index.rst:47
+#: ../../contents/index.rst:56
 msgid ""
 "`sphinx-revealjs <https://sphinx-revealjs.rtfd.io/>`_ : Presentation "
 "generator for Sphinx users."
-msgstr "`sphinx-revealjs <https://sphinx-revealjs.rtfd.io/>`_ : "
+msgstr ""
+"`sphinx-revealjs <https://sphinx-revealjs.rtfd.io/>`_ : "
 "Sphinxユーザー向けのプレゼンテーションビルダー。"
 
-#: ../../contents/index.rst:48
+#: ../../contents/index.rst:57
 msgid "`oEmbedPy <https://oembedpy.rtfd.io/>`_ : Modern oEmbed client."
 msgstr "`oEmbedPy <https://oembedpy.rtfd.io/>`_ : oEmbedクライアント。"
 
-#: ../../contents/index.rst:49
+#: ../../contents/index.rst:58
 msgid ""
 "`rst-budoux <https://rst-budoux.rtfd.io/>`_ : Split Japanese text of "
 "reStructuredText."
 msgstr ""
-"`rst-budoux <https://rst-budoux.rtfd.io/>`_ : reStructuredText の日本語テキストを分かち書きする。."
-
+"`rst-budoux <https://rst-budoux.rtfd.io/>`_ : reStructuredText "
+"の日本語テキストを分かち書きする。."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: atsphinx 2023.5.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-06 12:59+0900\n"
+"POT-Creation-Date: 2026-01-22 03:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kazuya Takei <myself@attakei.net>\n"
 "Language: ja\n"
@@ -17,15 +17,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../contents/contributing.rst:3
 msgid "Contributing for projects"
 msgstr "プロジェクトへの貢献"
 
 #: ../../contents/contributing.rst:5
-msgid "This is guideline to contribute for ``atsphinx`` packages."
-msgstr "このページは、 ``atsphinx`` シリーズのパッケージへのコントリビューションのための案内です。"
+msgid "This is guideline to contribute for ``atsphinx`` projects."
+msgstr "このページは、 ``atsphinx`` シリーズのプロジェクトへのコントリビューションをする人向けの案内です。"
 
 #: ../../contents/contributing.rst:8
 msgid "Supporting languages"
@@ -64,47 +64,54 @@ msgid "Commit logs"
 msgstr "コミットログ"
 
 #: ../../contents/contributing.rst:23
+#, fuzzy
 msgid ""
-"Documentation suports i18n. If you want to write out documents for your "
-"language, generate po files of language using ``sphinx-intl``."
-msgstr "ドキュメントは国際化（i18n）対応をしています。"
-"自身が普段扱う言語でドキュメントを出力させたい場合は、"
-"``sphinx-intl`` を使いPOファイルを生成してください。"
+"All documentat supports i18n. If you want to write out documents for your"
+" language, generate po files of language using ``sphinx-intl``."
+msgstr ""
+"全てのドキュメントは国際化（i18n）対応をしています。"
+"自身が普段扱う言語でドキュメントを出力させたい場合は、``sphinx-intl`` を使いPOファイルを生成してください。"
 
 #: ../../contents/contributing.rst:29
 msgid ""
 "I am writing documents by English and Japanese (using i18n) [#f1]_ . When"
 " some package updates, I do not follow po files of other languages."
-msgstr "作者はi18n機能を使いつつ英語と日本語のドキュメントを書いています。 [#f1]_ "
+msgstr ""
+"作者はi18n機能を使いつつ英語と日本語のドキュメントを書いています。 [#f1]_ "
 "仮に各パッケージを更新しても、それ以外の言語のPOファイルについてのサポートは行いません。"
 
+#: ../../contents/contributing.rst:32
+msgid "These are native language and second language of attakei."
+msgstr "作者であるattakeiの母国語と第二言語がこれらです。"
+
 #: ../../contents/contributing.rst:35
-msgid "Issues ang pull-requests."
+#, fuzzy
+msgid "Issues ang pull-requests"
 msgstr "IssueとPull requestについて"
 
 #: ../../contents/contributing.rst:37
 msgid ""
 "All projects accept English or Japanese as issues and pull-requests "
 "[#f1]_ ."
-msgstr "全プロジェクトのIssueとPull requestでは、英語だけでなく日本語でも受け付けます。"
+msgstr "全プロジェクトのIssueとPull requestでは、英語だけでなく日本語でも受け付けます。 [#f]_"
 
 #: ../../contents/contributing.rst:40
-msgid "When you find any troubles of specified package."
+#, fuzzy
+msgid "When you find any troubles of specified package"
 msgstr "パッケージにに何か問題がありそうだった場合"
 
 #: ../../contents/contributing.rst:42
 msgid ""
 "You should create new issue to repository of package. I will check issues"
 " and work for these."
-msgstr "該当するパッケージのリポジトリ上で、新しくIssueを作成してください。"
-"随時確認を行い解決に動く予定です。"
+msgstr "該当するパッケージのリポジトリ上で、新しくIssueを作成してください。随時確認を行い解決に動く予定です。"
 
 #: ../../contents/contributing.rst:45
+#, fuzzy
 msgid ""
-"If you can write patch, please create pull-requests directly (e.f. : you "
+"If you can write patch, please create pull-requests directly (e.g. you "
 "find typo in docs)."
-msgstr "もしパッチを書けるのであれば、直接Pull Requestを作成してください。"
-"（例：ドキュメントをにtypoを見つけた）"
+msgstr "もしパッチを書けるのであれば、直接Pull Requestを作成してください。（例：ドキュメントのtypoを見つけた）"
 
 #: ../../contents/contributing.rst:49
 msgid "Do you have any ideas want to use on Sphinx?"
@@ -116,14 +123,10 @@ msgid ""
 " please write it as ideas into `organization's disuccsion "
 "<https://github.com/orgs/atsphinx/discussions>`_."
 msgstr ""
-"もし「Sphinx拡張のアイデアはある」「でも自分で実装するのはちょっと難しい」"
-"といった場合は、アイデアだけを `OrganizationのDiscussion <https://github.com/orgs/atsphinx/discussions>`_ "
-"内に登録してみてください。"
+"もし「Sphinx拡張のアイデアはある」「でも自分で実装するのはちょっと難しい」といった場合は、アイデアだけを "
+"`OrganizationのDiscussion <https://github.com/orgs/atsphinx/discussions>`_"
+" 内に登録してみてください。"
 
 #: ../../contents/contributing.rst:54
 msgid "I may develop it instead of you (it is not always for all ideas)."
 msgstr "あなたの代わりに実装するかもしれません（もちろんすべてのアイデアに対してそのとおりに動くとは限りません）。"
-
-#: ../../contents/contributing.rst:32
-msgid "These are native language and second language of attakei."
-msgstr "作者であるattakeiの母国語と第二言語がこれらです。"
