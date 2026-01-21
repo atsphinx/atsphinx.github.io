@@ -36,3 +36,11 @@ select = ["C90", "D", "E", "F", "I", "W"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "pep257"
+
+[tool.doc8]
+max-line-length = 119
+# TODO: Enable after
+# ignore-path-errors = [
+#     "contents/projects.rst;D000",
+# ]
+ignore = ["D000"]
