@@ -20,7 +20,7 @@ jobs:
       - uses: 'atsphinx/.github/actions/setup-aqua@main'
       - name: Set up workspace
         run: |
-          task setup
+          task --yes setup
       - name: Lint by lefthook
         run: |
           touch contents/_snippets/packages.rst

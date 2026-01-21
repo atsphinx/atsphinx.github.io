@@ -4,6 +4,16 @@ vars:
   # If you run bare environment or activated venv, set '' (blank string)
   RUN_PYTHON: 'uv run'
 
+includes:
+  contents:
+    taskfile: 'https://github.com/attakei/workspace-configs.git//projects/sphinx-doc/Taskfile.yaml?tag=v0.7.2'
+    vars:
+      RUN_PYTHON: 'uv run'
+      SPHINX_ROOT_DIR: 'contents'
+      SPHINX_SOURCE_DIR: ''
+      SPHINX_OUTPUT_DIR: '../build'
+      SPHINX_DEFAULT_BUILDER: 'mini18n-dirhtml'
+
 tasks:
   setup:
     desc: 'Setup workspace'
@@ -27,6 +37,3 @@ tasks:
     cmds:
       - 'age {{.LEVEL}}'
       - 'uv sync --all-extras' # To write out as lock-file
-
-includes:
-  docs: './contents'
