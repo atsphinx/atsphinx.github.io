@@ -11,6 +11,7 @@ atsphinx project
    :hidden:
 
    projects
+   organization
    Contributing <contributing>
    versioning
 
